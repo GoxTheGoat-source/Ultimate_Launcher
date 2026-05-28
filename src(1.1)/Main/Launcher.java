@@ -472,9 +472,9 @@ public class Launcher {
       } else if (sel.equals("1.6.4")) {
          currentLibs = req[8];
       } else if (!sel.startsWith("a") && !sel.startsWith("b") && !sel.matches("1\\.[0-5](\\..*)?")) {
-         currentLibs = req[10];
-      } else {
          currentLibs = req[9];
+      } else {
+         currentLibs = req[10];
       }
 
       String[] var20 = currentLibs;
